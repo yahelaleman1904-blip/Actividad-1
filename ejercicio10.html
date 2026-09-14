@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 10 - Calculadora</title>
+    <style>
+        body { font-family: 'Inter', sans-serif; padding: 40px; background-color: #F8F9FA; }
+        .calculadora { 
+            max-width: 350px; 
+            margin: auto; 
+            background: white; 
+            padding: 30px; 
+            border-radius: 12px; 
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05); 
+        }
+        label { display: block; margin-bottom: 5px; font-weight: bold; }
+        input, button { 
+            width: 100%; 
+            padding: 10px; 
+            margin-bottom: 20px; 
+            border: 1px solid #ccc; 
+            border-radius: 6px; 
+            box-sizing: border-box;
+        }
+        input[readonly] { background-color: #e9ecef; color: #495057; font-weight: bold; outline: none; }
+        button { background-color: #0927dc; color: white; border: none; cursor: pointer; font-weight: bold; }
+        button:hover { background-color: #4CC9F0; }
+    </style>
+</head>
+<body>
+    <div class="calculadora">
+        <h2>Conversor de Temperatura</h2>
+        
+        <label for="celsius">Grados Celsius (C)</label>
+        <input type="number" id="celsius" placeholder="Ingresa los grados...">
+        
+        <button onclick="convertir()">Convertir</button>
+        
+        <label for="fahrenheit">Grados Fahrenheit (F)</label>
+        <input type="text" id="fahrenheit" readonly placeholder="El resultado aparecerá aquí">
+    </div>
+
+    <!-- Aquí enlazamos nuestro archivo JavaScript -->
+    <script src="js/ejercicio10.js"></script>
+</body>
+</html>
