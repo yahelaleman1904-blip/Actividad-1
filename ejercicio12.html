@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 12 - Convertidor de Divisas</title>
+</head>
+<body>
+    <h1>Convertidor de Pesos a Dólares</h1>
+    
+    <div>
+        <label for="inputMxn">Cantidad en Pesos Mexicanos (MXN):</label>
+        <input type="text" id="inputMxn" placeholder="Ej. 500">
+    </div>
+    
+    <br>
+    <!-- Botón que ejecuta la conversión sin recargar la página -->
+    <button onclick="convertirMoneda()">Convertir</button>
+    <br><br>
+
+    <div>
+        <label for="resultadoUsd">Dólares Estadounidenses (USD):</label>
+        <!-- Caja de texto bloqueada para mostrar el resultado -->
+        <input type="text" id="resultadoUsd" readonly>
+    </div>
+
+    <!-- Conectamos el archivo JavaScript desde la carpeta js -->
+    <script src="js/ejercicio12.js"></script>
+</body>
+</html>
