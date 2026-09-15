@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.contenedor {
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Estilos para la tabla */
+.horario {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.horario th, .horario td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.horario th {
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+}
+
+.horario tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Clases especiales para celdas */
+.laboratorio {
+    background-color: #e3f2fd;
+    font-weight: bold;
+}
+
+.proyecto {
+    background-color: #fff3e0;
+    color: #d35400;
+    font-weight: bold;
+}
+
+/* Estilos para las notas al pie de la tabla */
+.requisito {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.notas {
+    text-align: center;
+    font-style: italic;
+    color: #7f8c8d;
+}
