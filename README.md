@@ -18,7 +18,7 @@ Ejercicio 5: Combinando Texto y Enlaces: Integración de vínculos navegables di
 
 Ejercicio 6: Secciones Semánticas Básicas: Uso de etiquetas estructurales de HTML5 para dividir y organizar el contenido de la página de forma lógica.
 
-Ejercicio 7: Listas Anidadas (Tacos al Pastor): Creación de listas ordenadas y desordenadas dentro de otras listas (<ul>, <ol>, <li>) para jerarquizar recetas o pasos.
+Ejercicio 7: Listas Anidadas (Tacos al Pastor): Creación de listas ordenadas y desordenadas dentro de otras listas para jerarquizar recetas o pasos.
 
 Ejercicio 8: Horario de Clases: Construcción de una tabla HTML clásica (<table>, <tr>, <td>) para organizar datos en filas y columnas.
 
