@@ -20,9 +20,9 @@ Ejercicio 6: Secciones Semánticas Básicas: Uso de etiquetas estructurales de H
 
 Ejercicio 7: Listas Anidadas (Tacos al Pastor): Creación de listas ordenadas y desordenadas dentro de otras listas para jerarquizar recetas o pasos.
 
-Ejercicio 8: Horario de Clases: Construcción de una tabla HTML clásica (<table>, <tr>, <td>) para organizar datos en filas y columnas.
+Ejercicio 8: Horario de Clases: Construcción de una tabla HTML clásica (table, tr, td) para organizar datos en filas y columnas.
 
-Ejercicio 9: Formulario de Contacto: Diseño de una interfaz de captura de datos utilizando etiquetas <form>, campos de entrada <input>, y botones.
+Ejercicio 9: Formulario de Contacto: Diseño de una interfaz de captura de datos utilizando etiquetas form, campos de entrada input, y botones.
 
 Ejercicio 10: Calculadora JS (Celsius a Fahrenheit): Primera integración de JavaScript para leer un valor de un input numérico, aplicar una fórmula matemática de conversión y mostrar el resultado.
 
