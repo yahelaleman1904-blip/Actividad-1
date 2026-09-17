@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 16 - Calculadora Flecha</title>
+    <!-- Importar SweetAlert2[cite: 6] -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <h1>Calculadora Básica</h1>
+    
+    <div>
+        <input type="text" id="numero1" placeholder="Número 1">
+        <input type="text" id="numero2" placeholder="Número 2">
+    </div>
+    <br>
+    
+    <!-- Botones para cada operación[cite: 6] -->
+    <button onclick="calcularOperacion('suma')">Sumar</button>
+    <button onclick="calcularOperacion('resta')">Restar</button>
+    <button onclick="calcularOperacion('multiplicacion')">Multiplicar</button>
+    <button onclick="calcularOperacion('division')">Dividir</button>
+    <br><br>
+
+    <div>
+        <label>Resultado:</label>
+        <input type="text" id="resultado" readonly>
+    </div>
+
+    <script src="js/ejercicio16.js"></script>
+</body>
+</html>
